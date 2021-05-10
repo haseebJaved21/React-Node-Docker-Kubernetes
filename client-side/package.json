@@ -1,0 +1,45 @@
+{
+  "name": "react-typescript-jpb",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Haseeb Javed",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --mode production --progress true",
+    "deploy": "webpack --mode production"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "axios": "^0.19.2",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "scss-spinners": "^1.2.9"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router-dom": "^5.1.5",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^3.6.0",
+    "custom-tslint-formatters": "^2.4.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "sass-loader": "^9.0.2",
+    "source-map-loader": "^1.0.0",
+    "terser-webpack-plugin": "^3.0.6",
+    "ts-loader": "^8.0.1",
+    "tslint": "^6.1.2",
+    "tslint-loader": "^3.5.4",
+    "typescript": "^3.9.6",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
